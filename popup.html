@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Counter</title>
+    <style>
+      body {
+        width: 200px;
+        text-align: center;
+        font-family: "Arial";
+        color: #666;
+      }
+      .count {
+        font-size: 16px;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p><strong>On this browser, you currently have:</strong></p>
+    <div class="count"><strong>Tabs:</strong> <span id="tabCount">0</span></div>
+    <div class="count">
+      <strong>Windows</strong>: <span id="windowCount">0</span>
+    </div>
+    <div id="warning"></div>
+  </body>
+  <script src="popup.js"></script>
+</html>
